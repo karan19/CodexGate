@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.build/
+node_modules/
+.local/
+__pycache__/
+*.pyc
+
+*.log
+*.sqlite*
+*.db
+permissions.json
+
+dist/

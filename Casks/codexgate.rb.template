@@ -1,0 +1,13 @@
+# Replace OWNER and SHA256 after publishing a signed/notarized release.
+# Template only: not a published or installable cask.
+cask "codexgate" do
+  version "0.1.0"
+  sha256 "SHA256"
+  url "https://github.com/OWNER/CodexGate/releases/download/v#{version}/CodexGate-#{version}-arm64.dmg"
+  name "CodexGate"
+  desc "Unofficial Codex folder-access menu-bar companion"
+  homepage "https://github.com/OWNER/CodexGate"
+  depends_on macos: ">= :sonoma"
+  depends_on arch: :arm64
+  app "CodexGate.app"
+end

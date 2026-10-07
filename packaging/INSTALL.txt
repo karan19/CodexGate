@@ -1,0 +1,12 @@
+CodexGate 0.1.0 — unsigned local preview
+
+Drag CodexGate into Applications. Eject the image, then open CodexGate.
+The application bundles its Python service runtime; Homebrew Python is not required on the target Mac.
+This build targets the architecture of the build machine and macOS 14 or later.
+
+This is ad-hoc signed, not Developer ID signed or notarized. macOS may block downloaded copies. Use only your own trusted local build. Do not disable Gatekeeper globally.
+
+Quit the old Agent Folder Access controller first: both services use ports 8772/8773. Its temporary grants will end. Leave Codex running while testing this controller. Only quit Codex yourself, after active work finishes, when you want a protected relaunch.
+
+Data and saved rules are under ~/Library/Application Support/CodexGate. The app runs no setup that automatically stops Codex.
+No public download or Homebrew tap is published yet.

@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CodexGate · Human approvals</title><link rel="stylesheet" href="/approval.css"><script defer src="/approval.js"></script></head>
+<body><main><header><small>AGENT FOLDER ACCESS</small><h1>You control access.</h1><p>Approve a protected folder for ten minutes. Direct agent access stays blocked.</p></header>
+<aside><strong>Read/list trial</strong><p>Open this page in your own browser, outside the agent-controlled browser. Keep the private approval link out of chats. Session identity is a temporary bearer token, not verified Codex identity.</p></aside>
+<section><h2>Protected folder</h2><p id="folder">Connecting…</p><p id="session"></p></section>
+<section><h2>Access requests</h2><div id="requests"></div><p id="feedback" role="status" aria-live="polite"></p></section>
+<section><h2>Activity</h2><p>Latest 100 events. File contents are never recorded here.</p><div id="events"></div></section>
+<dialog id="confirm"><h2>Approve for ten minutes?</h2><p id="confirmation"></p><p>macOS will ask for Touch ID or your password. Never enter your password on this page.</p><button id="authenticate">Authenticate and approve</button><button id="cancel" class="secondary">Cancel</button></dialog>
+</main></body></html>
